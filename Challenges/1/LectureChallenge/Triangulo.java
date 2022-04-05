@@ -15,7 +15,7 @@ public class Triangulo {
     }
 
     // Get
-    public void getTipo() {
+    public void tipo() {
         if (lado1 == lado2 && lado2 == lado3) System.out.println("El triangulo es equilatero");
         else if (lado1 != lado2 && lado2 != lado3) System.out.println("El triangulo es escaleno");
         else System.out.println("El triangulo es isóceles");
